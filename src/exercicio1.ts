@@ -11,7 +11,7 @@ const aleatorio1 = Math.floor(Math.random() * array.length);
 const aleatorio2 = Math.floor(Math.random() * array.length);
 
 if(array[aleatorio1] == array[aleatorio2]){
-    console.log(`The values are the same. ▶️ ${array[aleatorio1].valueOf()} and ${array[aleatorio2]}`)
+    console.log(`The values are the same. ${array[aleatorio1].valueOf()} and ${array[aleatorio2]}`)
 } else {
     const result = array[aleatorio1]*array[aleatorio2];
     console.log(`${array[aleatorio1].valueOf()} x ${array[aleatorio2]} = ${result}`);

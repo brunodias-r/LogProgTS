@@ -19,11 +19,7 @@ function changePlace(vet: number[]){
     // }
 
     //Resolution 2
-    // const result = vet.reverse();
-
-    //Resolution 3
-    vet.splice()
-
+    const result = vet.reverse();
     return vet;
 }
 

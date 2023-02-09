@@ -1,10 +1,11 @@
 "use strict";
 /* Leia um vetor de 16 posições e troque os 8 primeiros valores pelos
 8 últimos e vice-e-versa. Escreva ao final o vetor obtido. */
-let vetor = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let vetor = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16];
 function changePlace(vet) {
     const ini = vet.indexOf(1);
-    const fin = vet.indexOf(10);
+    const fin = vet.indexOf(16);
+    //Resolution 1
     // for (let index = 0; index < vet.length; index++) {
     //     let aux;
     //     if(ini < fin){
@@ -13,6 +14,7 @@ function changePlace(vet) {
     //         vet[fin] = aux;
     //     }
     // }
+    //Resolution 2
     const result = vet.reverse();
     return vet;
 }
